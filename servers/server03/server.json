@@ -1,0 +1,11 @@
+{
+    "server": true,
+    "bind_addr": "server03_ip",
+    "bootstrap_expect": 3,
+    "data_dir": "/tmp",
+    "retry_join": [
+        "sever02_ip",
+        "server01_ip"
+    ],
+    "node_name": "consulserver03"
+}
